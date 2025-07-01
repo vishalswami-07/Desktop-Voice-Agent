@@ -1,0 +1,32 @@
+# Windows Voice Agent Requirements
+# First update pip: python.exe -m pip install --upgrade pip
+
+# Core dependencies
+streamlit>=1.28.0
+SpeechRecognition>=3.10.0
+pyttsx3>=2.90
+psutil>=5.9.0
+PyAutoGUI>=0.9.54
+keyboard>=0.13.5
+
+# Windows-specific audio control
+pycaw>=20230407
+
+# Audio processing (may need special installation)
+PyAudio>=0.2.11
+
+# Optional: AI/ML capabilities
+openai>=1.0.0
+langchain>=0.1.0
+faiss-cpu>=1.7.4
+
+# Optional: Advanced features
+Pillow>=10.0.0
+opencv-python>=4.8.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# Development and testing
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
